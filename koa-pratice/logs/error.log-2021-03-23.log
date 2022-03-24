@@ -1,0 +1,591 @@
+[2021-03-23T15:10:13.119] [ERROR] error - /public/list?catalog=&isTop=1&page=0&limit=20&sort=created&tag=&status= GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T15:10:13.123] [ERROR] error - /public/list?catalog=&isTop=0&page=0&limit=20&sort=created&tag=&status= GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T15:10:13.123] [ERROR] error - /public/tips GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T15:10:13.124] [ERROR] error - /public/hotSignRecord?page=0&limit=20&index=0 GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T15:10:13.125] [ERROR] error - /public/topWeek GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T15:10:13.125] [ERROR] error - /public/links GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T15:21:56.274] [ERROR] error - /login/login POST 405
+    InternalServerError: 请求方法不存在，请检查路由！
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T19:26:06.630] [ERROR] error - /login/login POST 404
+    AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:297:23)
+    at RedisClient.connection_gone (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:602:14)
+    at RedisClient.on_error (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:345:10)
+    at Socket.<anonymous> (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:222:14)
+    at Socket.emit (events.js:311:20)
+    at Socket.EventEmitter.emit (domain.js:482:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+    at new Command (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/command.js:12:22)
+    at RedisClient.get (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/commands.js:46:47)
+From previous event:
+    at getValue (/Users/wushaoxia/moocweb/api/src/config/RedisConfig.js:75:17)
+    at checkCode (/Users/wushaoxia/moocweb/api/src/common/Utils.js:40:27)
+    at login (/Users/wushaoxia/moocweb/api/src/api/loginController.js:64:26)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:353:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-23T19:26:06.634] [ERROR] error - /login/login POST 404
+    AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:297:23)
+    at RedisClient.connection_gone (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:602:14)
+    at RedisClient.on_error (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:345:10)
+    at Socket.<anonymous> (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:222:14)
+    at Socket.emit (events.js:311:20)
+    at Socket.EventEmitter.emit (domain.js:482:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+    at new Command (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/command.js:12:22)
+    at RedisClient.get (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/commands.js:46:47)
+From previous event:
+    at getValue (/Users/wushaoxia/moocweb/api/src/config/RedisConfig.js:75:17)
+    at checkCode (/Users/wushaoxia/moocweb/api/src/common/Utils.js:40:27)
+    at login (/Users/wushaoxia/moocweb/api/src/api/loginController.js:64:26)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:353:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-23T19:26:06.634] [ERROR] error - /login/login POST 404
+    AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:297:23)
+    at RedisClient.connection_gone (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:602:14)
+    at RedisClient.on_error (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:345:10)
+    at Socket.<anonymous> (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:222:14)
+    at Socket.emit (events.js:311:20)
+    at Socket.EventEmitter.emit (domain.js:482:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+    at new Command (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/command.js:12:22)
+    at RedisClient.get (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/commands.js:46:47)
+From previous event:
+    at getValue (/Users/wushaoxia/moocweb/api/src/config/RedisConfig.js:75:17)
+    at checkCode (/Users/wushaoxia/moocweb/api/src/common/Utils.js:40:27)
+    at login (/Users/wushaoxia/moocweb/api/src/api/loginController.js:64:26)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:353:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-23T19:26:06.635] [ERROR] error - /login/login POST 404
+    AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:297:23)
+    at RedisClient.connection_gone (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:602:14)
+    at RedisClient.on_error (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:345:10)
+    at Socket.<anonymous> (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:222:14)
+    at Socket.emit (events.js:311:20)
+    at Socket.EventEmitter.emit (domain.js:482:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+    at new Command (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/command.js:12:22)
+    at RedisClient.get (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/commands.js:46:47)
+From previous event:
+    at getValue (/Users/wushaoxia/moocweb/api/src/config/RedisConfig.js:75:17)
+    at checkCode (/Users/wushaoxia/moocweb/api/src/common/Utils.js:40:27)
+    at login (/Users/wushaoxia/moocweb/api/src/api/loginController.js:64:26)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:353:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-23T19:26:06.635] [ERROR] error - /login/login POST 404
+    AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:297:23)
+    at RedisClient.connection_gone (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:602:14)
+    at RedisClient.on_error (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:345:10)
+    at Socket.<anonymous> (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:222:14)
+    at Socket.emit (events.js:311:20)
+    at Socket.EventEmitter.emit (domain.js:482:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+    at new Command (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/command.js:12:22)
+    at RedisClient.get (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/commands.js:46:47)
+From previous event:
+    at getValue (/Users/wushaoxia/moocweb/api/src/config/RedisConfig.js:75:17)
+    at checkCode (/Users/wushaoxia/moocweb/api/src/common/Utils.js:40:27)
+    at login (/Users/wushaoxia/moocweb/api/src/api/loginController.js:64:26)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:353:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-23T20:04:06.147] [ERROR] error - /public/getCaptcha?sid=a8a09ada-c357-4490-bf81-4b07542a4f65 GET 404
+    ReferenceError: body is not defined
+    at getCaptcha (/Users/wushaoxia/moocweb/api/src/api/publicController.js:19:5)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at filter (/Users/wushaoxia/moocweb/api/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-23T20:04:07.151] [ERROR] error - /public/getCaptcha?sid=a8a09ada-c357-4490-bf81-4b07542a4f65 GET 404
+    ReferenceError: body is not defined
+    at getCaptcha (/Users/wushaoxia/moocweb/api/src/api/publicController.js:19:5)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at filter (/Users/wushaoxia/moocweb/api/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-23T20:06:09.352] [ERROR] error - /public/getCaptcha?sid=a8a09ada-c357-4490-bf81-4b07542a4f65 GET 404
+    ReferenceError: body is not defined
+    at getCaptcha (/Users/wushaoxia/moocweb/api/src/api/publicController.js:19:5)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at filter (/Users/wushaoxia/moocweb/api/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-23T20:06:38.187] [ERROR] error - /public/getCaptcha?sid=a8a09ada-c357-4490-bf81-4b07542a4f65 GET 404
+    ReferenceError: body is not defined
+    at getCaptcha (/Users/wushaoxia/moocweb/api/src/api/publicController.js:19:5)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at filter (/Users/wushaoxia/moocweb/api/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-23T20:09:33.853] [ERROR] error - /public/getCaptcha?sid=a8a09ada-c357-4490-bf81-4b07542a4f65 GET 404
+    ReferenceError: setValue is not defined
+    at getCaptcha (/Users/wushaoxia/moocweb/api/src/api/publicController.js:31:5)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at filter (/Users/wushaoxia/moocweb/api/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-23T20:09:44.324] [ERROR] error - /public/getCaptcha?sid=a8a09ada-c357-4490-bf81-4b07542a4f65 GET 404
+    ReferenceError: setValue is not defined
+    at getCaptcha (/Users/wushaoxia/moocweb/api/src/api/publicController.js:31:5)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at filter (/Users/wushaoxia/moocweb/api/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-23T20:11:26.092] [ERROR] error - /public/getCaptcha?sid=a8a09ada-c357-4490-bf81-4b07542a4f65 GET 404
+    ReferenceError: newCaptca is not defined
+    at getCaptcha (/Users/wushaoxia/moocweb/api/src/api/publicController.js:34:24)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at filter (/Users/wushaoxia/moocweb/api/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-23T21:36:13.014] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T21:46:51.252] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T21:51:24.429] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T21:53:58.352] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T21:54:41.317] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T21:54:41.861] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T21:56:00.192] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T21:57:55.896] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T21:59:21.068] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T21:59:21.745] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T21:59:22.025] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T21:59:22.284] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T21:59:22.571] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:36:16.020] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:39:44.920] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:41:46.173] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:41:46.380] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:41:47.002] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:41:47.264] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:41:47.485] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:42:53.987] [ERROR] error - /public/list?catalog=&isTop=0&page=0&limit=20&sort=created&tag=&status= GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:42:53.987] [ERROR] error - /public/list?catalog=&isTop=1&page=0&limit=20&sort=created&tag=&status= GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:42:53.990] [ERROR] error - /public/tips GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:42:53.991] [ERROR] error - /public/topWeek GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:42:53.991] [ERROR] error - /public/hotSignRecord?page=0&limit=20&index=0 GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:42:53.992] [ERROR] error - /public/links GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:48:29.138] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:48:34.518] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:49:18.247] [ERROR] error - /login/reg GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:56:32)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-23T22:51:54.202] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    

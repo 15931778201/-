@@ -1,0 +1,122 @@
+[2021-03-11T21:06:22.692] [ERROR] error - /login/login GET 405
+    InternalServerError: 请求方法不存在，请检查路由！
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-11T21:07:11.265] [ERROR] error - /login/login POST 404
+    Error: node_redis: The GET command contains a invalid argument type of "undefined".
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+    at RedisClient.internal_send_command (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:849:37)
+    at RedisClient.get (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/commands.js:46:25)
+From previous event:
+    at getValue (/Users/wushaoxia/moocweb/api/src/config/RedisConfig.js:75:17)
+    at checkCode (/Users/wushaoxia/moocweb/api/src/common/Utils.js:40:27)
+    at login (/Users/wushaoxia/moocweb/api/src/api/loginController.js:64:26)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:353:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-11T21:07:42.890] [ERROR] error - /login/login GET 405
+    InternalServerError: 请求方法不存在，请检查路由！
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-11T21:07:47.972] [ERROR] error - /login/login POST 404
+    Error: node_redis: The GET command contains a invalid argument type of "undefined".
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+    at RedisClient.internal_send_command (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:849:37)
+    at RedisClient.get (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/commands.js:46:25)
+From previous event:
+    at getValue (/Users/wushaoxia/moocweb/api/src/config/RedisConfig.js:75:17)
+    at checkCode (/Users/wushaoxia/moocweb/api/src/common/Utils.js:40:27)
+    at login (/Users/wushaoxia/moocweb/api/src/api/loginController.js:64:26)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:353:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-11T21:08:08.964] [ERROR] error - /login/login GET 404
+    Error: node_redis: The GET command contains a invalid argument type of "undefined".
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+    at RedisClient.internal_send_command (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:849:37)
+    at RedisClient.get (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/commands.js:46:25)
+From previous event:
+    at getValue (/Users/wushaoxia/moocweb/api/src/config/RedisConfig.js:75:17)
+    at checkCode (/Users/wushaoxia/moocweb/api/src/common/Utils.js:40:27)
+    at login (/Users/wushaoxia/moocweb/api/src/api/loginController.js:64:26)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:353:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    
+[2021-03-11T21:08:09.956] [ERROR] error - /login/login GET 404
+    Error: node_redis: The GET command contains a invalid argument type of "undefined".
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+    at RedisClient.internal_send_command (/Users/wushaoxia/moocweb/api/node_modules/redis/index.js:849:37)
+    at RedisClient.get (/Users/wushaoxia/moocweb/api/node_modules/redis/lib/commands.js:46:25)
+From previous event:
+    at getValue (/Users/wushaoxia/moocweb/api/src/config/RedisConfig.js:75:17)
+    at checkCode (/Users/wushaoxia/moocweb/api/src/common/Utils.js:40:27)
+    at login (/Users/wushaoxia/moocweb/api/src/api/loginController.js:64:26)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-router/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-router/lib/router.js:353:32)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-combine-routers/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:11)
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    at /Users/wushaoxia/moocweb/api/node_modules/koa-unless/index.js:26:14
+    at dispatch (/Users/wushaoxia/moocweb/api/node_modules/koa-compose/index.js:42:32)
+    

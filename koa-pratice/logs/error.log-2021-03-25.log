@@ -1,0 +1,83 @@
+[2021-03-25T00:40:13.814] [ERROR] error - /login/reg POST 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-25T00:46:26.735] [ERROR] error - /login/reh GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:56:32)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-25T00:46:32.023] [ERROR] error - /login/reg GET 404
+    InternalServerError: 发出的请求针对的是不存在的记录，服务器没有进行操作。
+    at Object.throw (/Users/wushaoxia/moocweb/api/node_modules/koa/lib/context.js:97:11)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:31:7)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:56:32)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-25T00:53:22.404] [ERROR] error - /login/reg POST 404
+    ReferenceError: User is not defined
+    at reg (/Users/wushaoxia/moocweb/api/src/api/loginController.js:155:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-25T00:53:25.343] [ERROR] error - /login/reg POST 404
+    ReferenceError: User is not defined
+    at reg (/Users/wushaoxia/moocweb/api/src/api/loginController.js:155:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-25T00:53:33.087] [ERROR] error - /login/reg POST 404
+    ReferenceError: User is not defined
+    at reg (/Users/wushaoxia/moocweb/api/src/api/loginController.js:155:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-25T00:53:48.133] [ERROR] error - /login/reg POST 404
+    ReferenceError: User is not defined
+    at reg (/Users/wushaoxia/moocweb/api/src/api/loginController.js:155:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-25T01:07:13.544] [ERROR] error - /login/reg POST 404
+    ReferenceError: bcrypt is not defined
+    at reg (/Users/wushaoxia/moocweb/api/src/api/loginController.js:173:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-25T01:09:34.246] [ERROR] error - /login/login POST 404
+    ReferenceError: SignRecord is not defined
+    at login (/Users/wushaoxia/moocweb/api/src/api/loginController.js:92:28)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-25T01:10:44.445] [ERROR] error - /login/login POST 404
+    ReferenceError: SignRecord is not defined
+    at login (/Users/wushaoxia/moocweb/api/src/api/loginController.js:92:28)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
+[2021-03-25T01:10:52.371] [ERROR] error - /login/login POST 404
+    ReferenceError: SignRecord is not defined
+    at login (/Users/wushaoxia/moocweb/api/src/api/loginController.js:92:28)
+    at _default (/Users/wushaoxia/moocweb/api/src/common/ErrorHandle.js:9:5)
+    at cors (/Users/wushaoxia/moocweb/api/node_modules/@koa/cors/index.js:98:16)
+    at serve (/Users/wushaoxia/moocweb/api/node_modules/koa-static/index.js:53:9)
+    
