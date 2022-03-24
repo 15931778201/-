@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>我是弹出子窗口</h2>
+    <button id="popBtn">向窗口传递信息</button>
+</body>
+<script>
+    var popBtn = document.querySelector('#popBtn')
+    popBtn.onclick = function(e){
+        window.opener.postMessage('我是子窗口的消息')
+        alert('111')
+    }
+    // window.opener.postMessage(message,targetOrigin),是将消息发送给指定来源的父窗口，如果未指定来源则发送给*，即所有窗口。
+// message : 传递的消息，是String类型的值
+// targetOrigin : 指定发送的窗口
+</script>
+</html>

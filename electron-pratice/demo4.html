@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button id="openBtn">打开文件</button>
+  <img id="images" alt="" style="width:100%" />
+  <button id="saveBtn">保存文件</button>
+  <button id="msgBtn">弹出对话框</button>
+</body>
+</html>
+
+<script>
+    const {dialog} = require('electron').remote
+    const fs = require('fs')
+    var openBtn = document.getElementById('openBtn');
+    openBtn.onclick = function(){
+        dialog.showOpenDialog({
+            title:'请选择你喜欢的小姐姐照片',
+            buttonLabel:'打开图片',
+            defaultPath: 'xiaojiejie.jpg',
+            filters:[
+                {name:'jpg',extensions:['jpg']}
+            ]
+          }).then(result=>{
+            let image = document.getElementById('images')
+            image.setAttribute("src",result.filePaths[0]);
+            console.log(result)
+          }).catch(err=>{
+              console.log(err)
+          })
+    }
+
+    var saveBtn = document.getElementById('saveBtn')
+    saveBtn.onclick = function() {
+      dialog.showSaveDialog({
+        title: '保存文件'
+      }).then(result => {
+        console.log(result.filePath)
+        fs.writeFileSync(result.filePath,'技术胖一个前端爱好者')
+      }).catch(err => {
+        console.log(err)
+      })
+    }
+
+    var msgBtn = document.getElementById('msgBtn')
+    msgBtn.onclick = function() {
+      dialog.showMessageBox({
+        type: 'warning',
+        title: '下馆子',
+        message: '去哪里吃饭？',
+        buttons: ['肯德基','馄炖馆']
+      }).then(result => {
+        console.log(result)
+      })
+    }    
+    
+</script>
+<!-- 我们先来看一下打开对话框的相关API，打开文件选择对话框可以使用dialog.showOpenDialog()方法来打开，它有两个参数，一个是设置基本属性，另一个是回调函数，如果是异步可以使用then来实现。
+
+title ： String (可选)，对话框的标题
+defaultPath ： String (可选),默认打开的路径
+buttonLabel ： String (可选), 确认按钮的自定义标签，当为空时，将使用默认标签
+filters ： 文件选择过滤器，定义后可以对文件扩展名进行筛选
+properties：打开文件的属性，比如打开文件还是打开文件夹，甚至是隐藏文件。
+对基本的API了解以后，就可以写代码看看具体的效果了。 -->
+
